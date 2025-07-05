@@ -1,8 +1,8 @@
-# resource "azurerm_resource_group" "tataplay" {
-#     count = 4
-#   name     = "zeetv${count.index}"
-#   location = "Central india"
-# }
+resource "azurerm_resource_group" "tataplay" {
+    count = 4
+  name     = "zeetv${count.index}"
+  location = "Central india"
+}
 
 # resource "azurerm_resource_group" "tataplay" {
 #     count = 4
